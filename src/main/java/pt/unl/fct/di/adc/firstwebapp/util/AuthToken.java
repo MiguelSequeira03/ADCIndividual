@@ -6,7 +6,7 @@ public class AuthToken {
 	
 	
 	//TODO ISSUEDAT DEVE SER INT OU LONG??
-	public static final long EXPIRATION_TIME = 1000*60*60*2; //2h
+	public static final long EXPIRATION_TIME = 1000*60*15;
 		public String tokenId;
 		public String username;
 		public String role;
